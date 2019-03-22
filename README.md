@@ -19,8 +19,8 @@ This project is a learning experience for me on how BitTorrent Protocol works in
 
 
 ## Reference
-http://dandylife.net/docs/BitTorrent-Protocol.pdf
-http://www.cs.tut.fi/kurssit/ELT-53207/lecture05.pdf
+- http://dandylife.net/docs/BitTorrent-Protocol.pdf
+- http://www.cs.tut.fi/kurssit/ELT-53207/lecture05.pdf
 
 
 
