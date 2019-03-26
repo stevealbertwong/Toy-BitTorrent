@@ -28,7 +28,7 @@ This project is a learning experience for me on how BitTorrent Protocol works in
 ## Reference
 - http://dandylife.net/docs/BitTorrent-Protocol.pdf
 - http://www.cs.tut.fi/kurssit/ELT-53207/lecture05.pdf
-
+- coast project
 
 
 ### TODO
@@ -36,6 +36,8 @@ This project is a learning experience for me on how BitTorrent Protocol works in
 still needs to implement some algorithm 
 
 ```
+- transport.py -> socket send() and receive()
+
 - send outgoing block data logic(PieceMessage / BlockMessage) -> now just purely requesting data from peers
 
 - re-requests for non-received or corrupted data
