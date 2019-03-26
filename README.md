@@ -2,6 +2,13 @@
 
 This project is a learning experience for me on how BitTorrent Protocol works in a Distributed System settings
 
+## Architecture 
+- 1 process 1 BitTorrent server	
+	- spawn multiple processes to simulate 1 group of p2p (seeders + leechers)
+	- or unit testing each major function 
+- 2 threads synchronization without lock/mutex
+	- 1 main thread write() variables, another thread just read() variables then run handler functions
+	- no race condition
 
 ![alt text](https://raw.githubusercontent.com/stevealbertwong/Toy-BitTorrent/master/media/BitTorrent-architecture.png)
 
